@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&display=swap')
+
+$navbar-transparent = rgba(255, 255, 255, 0)
+$footerColor = #828282
+$footerBgColor = #000;
+
+$dollyBlackLight = rgba(0, 0, 0, .54)
+$dollyPink = rgb(208, 93, 210)
+$dollyGreen = rgb(70, 189, 135)
+$dollySilver = rgba(7, 17, 27, 0.1)
+$dollyDarkBlack1 = #282c34
+$dollyDarkBlack2 = #1e1e1e
+
+$dollyBoxShadow = 0 1px 6px 0 rgba(0, 0, 0, 0.2)
+$dollyBoxShadowHover = 0 2px 16px 0 rgba(0, 0, 0, 0.2)
+
+body
+  font-family -apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+  color black
+
+.theme-container.dark
+  transition all .5s linear
+  color white
+  background $dollyDarkBlack2
+  .blog-card, .side-bar
+    background $dollyDarkBlack1
+  .blog-card
+    .blog-excerpt, .blog-time, .blog-tags
+      color rgba(255,255,255,0.7)
+  .personal-info-wrapper
+    border-bottom 1px solid #fff
+  .tags-list-1 .tag-wrapper
+    background $dollyDarkBlack1
+    border 1px dashed #fff
+
+  .navbar
+    color #fff
+    background black
+    border-bottom $dollyDarkBlack2
+    .site-name
+      color #fff
+
+  .timeline-wrapper
+    .blog
+      color rgba(255,255,255,0.7)
+
+  .sidebar
+    color #fff
+    background rgba(0, 0, 0, .6)
+    backdrop-filter blur(10px)
+
+
+
