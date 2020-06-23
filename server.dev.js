@@ -1,6 +1,6 @@
 const express = require('express')
 
-const __dist = './docs/.vuepress/dist'
+const __dist = '../dist'
 
 const port = 8080
 
