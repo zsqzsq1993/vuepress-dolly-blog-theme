@@ -48,6 +48,7 @@ git clone https://github.com/zsqzsq1993/vuepress-dolly-blog-theme.git
 "dev": "vuepress dev docs",
 "test": "node server.dev.js",
 "build": "vuepress build docs --dest ../dist"
+"deploy": "./deploy.sh"
 ```
 
 dev: 本地开发
@@ -55,6 +56,8 @@ dev: 本地开发
 test: 部署前本地试部署
 
 build: 在主题的同级目录下生成静态文件，方便分开管理 
+
+deploy: 方便部署至github，会自动更新theme仓库和github.io仓库并上传代码
 
 ## Lastly？
 
