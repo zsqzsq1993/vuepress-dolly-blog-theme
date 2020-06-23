@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "test": "node server.dev.js",
-    "build": "vuepress build docs --dest ../dist"
+    "build": "vuepress build docs --dest ../dist",
+    "deploy": "./deploy.sh"
   },
   "keywords": [
     "VuePress",
