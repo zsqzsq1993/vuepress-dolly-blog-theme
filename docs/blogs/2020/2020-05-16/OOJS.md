@@ -1,6 +1,6 @@
 ---
 title: 浅谈JavaScript面向对象编程
-excerpt: 在这篇博客中，我将尝试梳理JS中的对象、构造函数（类）、类的实例化、原型链、原型式继承以及类在ES6中的表现形式.
+excerpt: 一般OO(Object-Oriented)的语言都有类的概念，但JavaScript中却没有，ES6中实现的class仅是构造函数的语法糖，因此JS中的对象也与别的语言有所不同。这篇文章将会梳理JS中对象中的常用特性、如何在JS中实现类以及各种方式来继承类。
 type: blog
 location: Guangzhou
 author: Dolly
