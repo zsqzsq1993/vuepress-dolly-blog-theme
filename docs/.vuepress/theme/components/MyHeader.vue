@@ -145,6 +145,7 @@
             padding 0
             line-height 0
             .image-wrapper
+                width: 100%
                 position absolute
                 left 0
                 top 0
