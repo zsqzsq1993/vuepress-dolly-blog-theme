@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Dolly\'s Blog',
     description: 'Happiness is real when shared.',
-    base: '/blogs',
+    base: '/blogs/',
     head: [
         ['link',{ rel:'icon', href:'/favicon.ico'}]
     ],
