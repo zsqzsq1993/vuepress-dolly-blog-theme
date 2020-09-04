@@ -46,7 +46,7 @@ git clone https://github.com/zsqzsq1993/vuepress-dolly-blog-theme.git
 
 ```json
 "dev": "vuepress dev docs",
-"test": "node server.dev.js",
+"test": "node prod.server.js",
 "build": "vuepress build docs --dest ../dist"
 "deploy": "./deploy.sh"
 ```

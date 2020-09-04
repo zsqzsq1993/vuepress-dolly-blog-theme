@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "test": "node server.dev.js",
+    "test": "node prod.server.js",
     "build": "vuepress build docs --dest ../dist",
     "deploy": "./deploy.sh"
   },
