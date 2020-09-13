@@ -2,7 +2,7 @@ const express = require('express')
 
 const __dist = '../dist'
 
-const port = 8080
+const port = 9002
 
 const app = express()
 
